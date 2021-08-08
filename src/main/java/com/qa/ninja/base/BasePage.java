@@ -129,7 +129,6 @@ public class BasePage {
 		FileInputStream ip;
 		try {
 			ip = new FileInputStream(".\\src\\main\\java\\com\\qa\\ninja\\config\\config.properties");
-			System.out.println("hi");
 			try {
 				prop.load(ip);
 			} catch (IOException e) {
